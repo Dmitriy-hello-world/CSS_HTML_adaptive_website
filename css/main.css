@@ -1,0 +1,219 @@
+* {
+    font-family: Roboto, sans-serif;
+}
+
+header {
+    position: relative;
+}
+
+header nav {
+    height: 50px;
+    background: #212121;
+    position: fixed;
+    width: 100%;
+    z-index: 9999;
+}
+
+header nav .nav_wrapper {
+    margin: 0;
+    list-style-type: none;
+    padding: 10px 71px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav_wrapper .nav_item .nav_link {
+    line-height: 30px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    color: #FFFFFF;
+}
+
+.nav_wrapper .nav_item {
+    border-right: 2px dotted black;
+    padding-right: 27px;
+}
+
+header .subheader {
+    top: 50px;
+    position: absolute;
+    width: 100%;
+    padding: 17px 0;
+    height: 84px;
+    background: rgba(0, 0, 0, .6);
+}
+
+.subheader .img_logo {
+    max-width: 100%;
+}
+
+.subheader .img_text {
+    opacity: 0.6;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 13px;
+    color: #FFFFFF;
+}
+
+.subheader .call_text {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    text-align: right;
+    color: #FFFFFF;
+}
+
+.subheader .call_phone {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    text-align: right;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    line-height: 28px;
+}
+
+.subheader .subheader_btn {
+    width: 172px;
+    height: 46px;
+    background: linear-gradient(0deg, #1EACC7 0%, #4CE2FF 100%);
+    box-shadow: inset 0px -3px 0px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+    border: 0;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.21);
+}
+
+.promo {
+    background: url(../images/first_screen/uber_bg.jpg) center center/cover no-repeat;
+    min-height: 800px;
+    padding: 155px 0 185px 0;
+}
+
+.promo h1 {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 60px;
+    line-height: 60px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin: 0;
+}
+
+.promo .promo_subheader {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 36px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin: 0;
+    margin-top: 20px;
+}
+
+.promo .promo_text {
+    margin-top: 16px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.promo .promo_btn {
+    display: block;
+    margin: 0 auto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.21);
+    width: 259px;
+    height: 63px;
+    background: linear-gradient(0deg, #1EACC7 0%, #4CE2FF 100%);
+    box-shadow: inset 0px -4px 0px rgba(0, 0, 0, 0.12);
+    border: none;
+    border-radius: 4px;
+    margin-top: 115px;
+}
+
+.reasons {
+    min-height: 850px;
+    padding: 18px 0 64px 0;
+}
+
+.reasons .advantages {
+    margin: 0 auto;
+    width: 112px;
+    height: 24px;
+    background: #000000;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    mix-blend-mode: normal;
+    line-height: 24px;
+}
+
+.reasons .reasons_header {
+    margin: 0;
+    margin-top: 33px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 38px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #222222;
+}
+
+.reasons_wrapper .reasons_wrapper_item .circle {
+    margin-right: 25px;
+    min-width: 116px;
+    height: 116px;
+    background: #1EACC7;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.reasons_wrapper .reasons_wrapper_item {
+    margin-top: 26px;
+    display: flex;
+    justify-content: center;
+}
+
+.reasons_wrapper .reasons_wrapper_item .wrapper_item_header {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 21px;
+    align-items: center;
+    color: #1EACC7;
+}
+
+.reasons_wrapper .reasons_wrapper_item .wrapper_item_text {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 21px;
+    align-items: center;
+    color: #202020;
+}
+
+.reasons_wrapper .reasons_wrapper_item .wrapper_item_content {
+    width: 370px;
+}

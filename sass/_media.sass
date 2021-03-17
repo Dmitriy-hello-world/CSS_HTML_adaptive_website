@@ -1,0 +1,330 @@
+@media (max-width: 1200px)
+    header
+        nav
+            .nav_wrapper
+                .nav_item
+                    padding-right: 17px
+                    .nav_link
+                        font-size: 14px
+        .subheader
+            .call_phone
+                display: block
+    .promo
+        h1
+            font-size: 50px
+        .promo_subheader
+            font-size: 32px
+    .reasons
+        .reasons_wrapper
+            .reasons_wrapper_item
+                .wrapper_item_content
+                    width: 300px
+    .mobile
+        &_item
+            width: 300px
+            height: 260px
+    footer
+        .links
+            &_submenu
+                ul
+                    flex-direction: column
+                    align-items: center
+        .app
+            flex-direction: column
+            align-items: center
+            a
+                margin-top: 15px
+        .icons
+            flex-direction: column
+            align-items: center
+            &_img
+                margin-top: 15px
+@media ( max-width: 991px )
+    header
+        nav
+            .nav_wrapper
+                .nav_item
+                    padding-right: 11px
+                    .nav_link
+                        font-size: 10px
+        .subheader
+            .call_phone
+                display: block
+                font-size: 19px
+            .subheader_btn
+                width: 100%
+                height: 40px
+            .img_text
+                font-size: 12px
+    .promo
+        h1
+            font-size: 40px
+        .promo_subheader
+            font-size: 23px
+    .reasons
+        .title
+            font-size: 32px
+        .reasons_wrapper
+            .reasons_wrapper_item
+                flex-direction: column
+                justify-content: flex-start
+                .wrapper_item_content
+                    width: 300px
+                    margin-top: 15px
+    .mobile
+        &_item
+            margin-top: 25px
+    .choise
+        min-height: 699px
+        &_top_img
+            width: 80%
+        &_bot
+            height: 200px
+@media ( max-width: 767px )
+    header
+        nav
+            height: 32px
+            .nav_wrapper
+                position: fixed
+                top: 0
+                left: -100%
+                width: 50%
+                height: 100vh
+                background: rgba(0, 0, 0, .8)
+                flex-direction: column
+                justify-content: center
+                align-items: center
+                margin: 0
+                padding: 0
+                transition: 0.8s all
+                .nav_item
+                    padding: 0
+                    border: none
+                    width: 100%
+                    text-align: center
+                    .nav_link
+                        font-size: 20px
+                        line-height: 50px
+                        display: block
+                        padding: 5px 0 5px 0
+                        &:hover
+                            color: #fff
+                            &::before
+                                width: 0%
+            .nav_wrapper_active
+                left: 0
+            .hamburger
+                position: absolute
+                right: 15px
+                top: 50%
+                transform: translateY(-50%)
+                cursor: pointer
+                display: block
+                width: 26px
+                height: 12px
+                span
+                    display: block
+                    height: 2px
+                    margin-bottom: 2px
+                    background: #fff
+                    transition: 0.5s all
+                &_active
+                    span
+                        margin-bottom: -2px
+                        &:nth-child(1)
+                            transform: translateY(3px) rotate(-45deg)
+                        &:nth-child(2)
+                            display: none
+                        &:nth-child(3)
+                            transform: translateY(3px) rotate(45deg)
+        .subheader
+            top: 32px
+            height: 62px
+            padding: 0
+            .img_logo
+                display: block
+                margin-top: 17px
+            .img_text
+                display: none
+            .call_sm
+                display: none
+            .call_phone_block
+                text-align: center
+                .call_phone_sm
+                    display: inline
+                    font-style: normal
+                    font-weight: normal
+                    font-size: 16px
+                    text-transform: uppercase
+                    color: #FFFFFF
+            .subheader_btn
+                display: block
+                width: 150px
+                height: 30px
+                background: linear-gradient(0deg, #1EACC7 0%, #4CE2FF 100%)
+                border: none
+                box-shadow: none
+                border-radius: 4px
+                font-style: normal
+                font-weight: normal
+                font-size: 10px
+                text-align: center
+                text-transform: uppercase
+                color: #FFFFFF
+                margin: 0 auto
+                &:hover
+                    background: linear-gradient(0deg, #1EACC7 0%, #4CE2FF 100%)
+    .promo
+        min-height: 432px
+        padding: 133px 0 34px 0
+        .promo_text
+            display: none
+        h1
+            font-size: 35px
+        .promo_subheader
+            font-size: 20px
+        .promo_btn
+            &:hover
+                background: linear-gradient(0deg, #1EACC7 0%, #4CE2FF 100%)
+    .reasons
+        .title
+            font-size: 18px
+        .reasons_wrapper
+            .reasons_wrapper_item
+                align-items: center
+                .circle
+                    width: 103px
+                    height: 103px
+                .wrapper_item_content
+                    width: 100%
+    .mobile
+        .title
+            font-size: 18px
+        .subheader
+            font-size: 16px
+            line-height: 21px
+    .choise
+        min-height: 393px
+        &_top
+            padding-top: 36px
+            .title
+                font-size: 20px
+            &_subheader
+                display: none
+            &_img
+                margin-top: 34px
+                width: 70%
+            &_text
+                font-size: 17px
+                color: #fff
+                line-height: 24px
+        &_bot
+            height: 0
+    .requary
+        padding: 24px 0 30px 0
+        .title
+            margin-top: 16px
+            font-size: 16px
+        &_block
+            &_list
+                padding-left: 30px
+                li
+                    font-size: 14px
+                    &::before
+                        top: 2px
+    .world
+        min-height: 360px
+        &_bg
+            padding: 24px 0 30px 0
+            .title
+                margin-top: 14px
+                font-size: 18px
+            .subheader
+                margin-top: 11px
+                font-size: 16px
+        &_link
+            margin-top: 211px
+    footer
+        padding: 24px 0 29px 0
+        .flex_wrapper
+            flex-direction: column
+            .links
+                order: 1
+                width: 90%
+                &_line
+                    width: 255px
+                &_menu
+                    margin-top: 21px
+                    ul
+                        li
+                            a
+                                font-size: 14px
+                &_submenu
+                    margin-top: 10px
+                    ul
+                        flex-direction: row
+                        flex-wrap: wrap
+                        li
+                            margin: 0 10px 0 10px
+                &_language
+                    margin-top: 10px
+            .icons
+                width: 100%
+                order: 2
+                flex-direction: row
+                justify-content: center
+                margin-top: 16px
+            .app
+                width: 100%
+                order: 3
+                flex-direction: row
+                justify-content: center
+                margin-top: 19px
+@media ( max-width: 575px )
+    header
+        nav
+            .nav_wrapper
+                width: 80%
+                .nav_item
+                    width: 100%
+                    text-align: center
+                    .nav_link
+                        display: block
+                        padding: 5px 0 5px 0
+        .subheader
+            .img_logo
+                margin-top: 21px
+            .call_phone_block
+                .call_phone_sm
+                    font-size: 12px
+            .subheader_btn
+                font-size: 10px
+                width: 110px
+                height: 22px
+    .promo
+        h1
+            font-size: 30px
+        .promo_subheader
+            font-size: 20px
+            line-height: 23px
+        .promo_btn
+            margin-top: 73px
+    .reasons
+        .title
+            font-size: 16px
+            margin-top: 16px
+    .mobile
+        .title
+            font-size: 16px
+            margin-top: 16px
+        &_item
+            width: 290px
+            height: 254px
+    .choise
+        &_top
+            min-height: 393px
+            height: 0
+        .title
+            display: none
+            &_subheader
+                display: none
